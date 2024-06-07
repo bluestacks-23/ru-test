@@ -35,7 +35,7 @@ def install_dependencies():
     run_cmd("conda install -y -k git")
     run_cmd("git clone https://github.com/C0untFloyd/roop-unleashed.git")
     os.chdir(MY_PATH)
-    run_cmd("git checkout 02195623349ee5b56b6d3653b7f97444d7d777f7")
+    run_cmd("git checkout ebf163acdb66de17abf408a86a72d00ddf49480c")
     # Installs dependencies from requirements.txt
     run_cmd("python -m pip install -r requirements.txt")
 
